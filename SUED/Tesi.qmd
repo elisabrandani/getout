@@ -1,0 +1,72 @@
+---
+title: |
+  \begin{center}
+  {\Large \textbf{ALMA MATER STUDIORUM – UNIVERSITA’ DI BOLOGNA}}\\[1.5cm]
+  {\large DIPARTIMENTO DI SCIENZE STATISTICHE}\\
+  {\large “PAOLO FORTUNATI”}\\[2cm]
+  {\large Corso di Laurea in Scienze Statistiche}\\[2cm]
+  \end{center}
+  \vfill
+  \begin{center}
+  {\Huge \textbf{TITOLO}}\\[0.5cm]
+  {\Large (Analisi statistica di banche dati online)}
+  \end{center}
+  \vfill
+author: "Elisa Brandani"
+date: "2025-02-20"
+format: 
+  pdf:
+    number-sections: true  # Enables section numbering
+    bibliography: biblio.bib # Link the BibTeX file
+header-includes: |
+  % Set Arial font globally
+  \usepackage{helvet}  
+  \renewcommand{\familydefault}{\sfdefault}  
+
+  % Ensure correct document structure
+  \usepackage{titling}
+  \usepackage{array}
+  \usepackage{ragged2e}
+
+  % Define Presentata and Appello sections
+  \newcommand{\presentata}{%
+    \begin{flushleft}
+    \begin{tabular}{ p{7cm} p{7cm} }
+    \textbf{Presentata da:} & \hfill \textbf{Relatore:} \\
+    Elisa e Brandani & \hfill Prof Paolo Verme \\
+    Matricola: 00011 &  \\
+    \end{tabular}
+    \end{flushleft}
+  }
+  \newcommand{\appello}{%
+    \vfill
+    \begin{center}
+    \textbf{APPELLO … …}\\[0.5cm]
+    \textbf{ANNO ACCADEMICO 2024 / 25}
+    \end{center}
+  }
+---
+
+\presentata
+
+\appello
+
+\newpage  
+
+\fontsize{12pt}{14pt} \selectfont  
+
+# Introduction
+
+This study is based on statistical analysis methods presented by Smith [@smith2020] and recent developments in data science discussed by Jones and Brown [@jones2018].
+
+# Machine Learning in Healthcare
+
+Lee and White [@lee2019] highlighted key advancements in AI-driven healthcare, while Williams [@williams2021] examined societal impacts of big data.
+
+# Online Resources
+
+For a general understanding of statistical learning, see Doe’s online guide [@doe2023].
+
+# Conclusions
+
+# References
